@@ -1,0 +1,33 @@
+{
+  "name": "vue-messageboxs",
+  "version": "1.1.2",
+  "description": "messageBox message",
+  "main": "vue-messagebox-demo.js",
+  "dependencies": {
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.1.1",
+    "css-loader": "^0.28.4",
+    "node-sass": "^4.5.3",
+    "path": "^0.12.7",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.18.2",
+    "vue": "^2.4.2",
+    "vue-template-compiler": "^2.4.2",
+    "webpack": "^3.5.4"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-es2015": "^6.24.1",
+    "vue-loader": "^13.0.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "messageBox",
+    "message"
+  ],
+  "author": "yangbo",
+  "license": "ISC"
+}

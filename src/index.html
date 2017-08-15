@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript" src="../node_modules/vue/dist/vue.js"></script>
+    <script type="text/javascript" src="./../vue-messagebox-demo.js"></script>
+</head>
+<body>
+    <div id="app">
+        <a href="javascript:;" @click="toast">点击弹出messageBox</a>
+    </div>
+</body>
+<script type="text/javascript">
+    new Vue({
+        el:'#app',
+        methods:{
+            toast:()=>{
+                this.$messagebox.show({'title':'hello','describe':'everyOne'},{cb:function () {
+                    alert('点击确认以后的回调')
+                },buttonName:['关闭','确定']});
+            }
+        }
+    })
+</script>
+</html>
